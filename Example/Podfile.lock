@@ -1,0 +1,16 @@
+PODS:
+  - MyLocalServer (0.1.0)
+
+DEPENDENCIES:
+  - MyLocalServer (from `../`)
+
+EXTERNAL SOURCES:
+  MyLocalServer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyLocalServer: 29a54ed44352bebeb4ce37dd564c105a80e9dea1
+
+PODFILE CHECKSUM: 8b3243b4a2e968a87dd4d2b4eb4d6e4effea8976
+
+COCOAPODS: 1.10.1

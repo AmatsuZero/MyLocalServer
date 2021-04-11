@@ -7,6 +7,7 @@
 //
 
 #import "JZHViewController.h"
+#import <MyLocalServer/JZHLocalServer.h>
 
 @interface JZHViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [JZHLocalServer startServer:8080];
 }
 
 - (void)didReceiveMemoryWarning
