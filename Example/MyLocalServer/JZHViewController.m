@@ -19,7 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [JZHLocalServer startServer:8080];
+    NSURL *url = [JZHLocalServer.defaultServer startWithPort:8080];
+    NSLog(@"%@", url);
 }
 
 - (void)didReceiveMemoryWarning

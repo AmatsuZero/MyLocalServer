@@ -11,7 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JZHLocalServer : NSObject
 
-+ (void)startServer:(int)port;
++ (instancetype)defaultServer;
+
+- (NSURL *)startWithPort:(int)port;
 
 @end
 
